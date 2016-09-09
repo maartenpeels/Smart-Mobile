@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="nl.maartenpeels.csiweek2.MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/badguy"
+        android:contentDescription="@string/bad_guy" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:id="@+id/textView"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="Maarten Peels"
+                    android:id="@+id/textView2"
+                    android:layout_column="1"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender"
+                    android:id="@+id/textView3"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="Male"
+                    android:id="@+id/textView4"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/age"
+                    android:id="@+id/textView5"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="21"
+                    android:id="@+id/textView6"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bounty"
+                    android:id="@+id/textView7"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="$100.000"
+                    android:id="@+id/textView8" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/details"
+            android:id="@+id/textView10" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae elit ac nunc ultrices aliquet et id erat. In ipsum tellus, venenatis eget erat ut, elementum congue nisi. Fusce sodales viverra magna. Aenean eget felis cursus, maximus libero vel, auctor justo. Sed venenatis nibh id mattis sodales. Duis ut rutrum nibh. Vestibulum imperdiet lorem mattis erat faucibus sagittis. Nulla eleifend mi et eros mollis pulvinar. Nunc quis tempor tortor. Sed vel metus nunc. Proin sagittis nec metus quis lobortis.  Maecenas volutpat venenatis purus sit amet tempor. Sed pretium suscipit bibendum. Integer ultrices sagittis eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec gravida tellus sit amet metus rutrum, eget tempor nisi commodo. Vivamus porttitor ipsum eu tristique luctus. Sed varius felis sed dui dictum tempus. In gravida erat et dui elementum, dictum mollis lectus porta. Nulla maximus ligula lacus, ac efficitur tellus pharetra ac. Sed venenatis orci porta tellus facilisis aliquam. Nullam sit amet dolor ac nisi pulvinar feugiat ac nec felis. Aliquam pretium dui viverra mi rutrum, et feugiat odio fringilla. Proin nec convallis lorem. Cras at justo vitae odio ultricies volutpat. Nunc purus urna, interdum tincidunt magna ac, vehicula varius felis. Integer vulputate purus eget dolor condimentum suscipit."
+                android:id="@+id/textView9" />
+        </ScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/report"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

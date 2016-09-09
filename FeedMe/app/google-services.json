@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "546459177090",
+    "firebase_url": "https://feedme-1f521.firebaseio.com",
+    "project_id": "feedme-1f521",
+    "storage_bucket": "feedme-1f521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546459177090:android:f53fb9f6035669ed",
+        "android_client_info": {
+          "package_name": "nl.maartenpeels.feedme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546459177090-0i6uo6u8dftf8fj79u2h1tios1b26410.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvKq5-49wHfESvJxGWIreBhfP3gq48MxY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
