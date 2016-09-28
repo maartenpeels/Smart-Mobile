@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="criminalName">
+        <item>Maarten Peels</item>
+        <item>Robbert van Dommelen</item>
+        <item>Nick van Lierop</item>
+        <item>Daphne Boshuis</item>
+    </string-array>
+
+    <string-array name="criminalGender">
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <integer-array name="criminalAge">
+        <item>20</item>
+        <item>21</item>
+        <item>16</item>
+        <item>18</item>
+    </integer-array>
+
+    <string-array name="criminalBounty">
+        <item>20.000</item>
+        <item>10.000</item>
+        <item>5000</item>
+        <item>100.000</item>
+    </string-array>
+
+    <string-array name="criminalDetails">
+        <item>Pas op, erg gevaarlijk!</item>
+        <item>Pas op, erg gevaarlijk!</item>
+        <item>Pas op, erg gevaarlijk!</item>
+        <item>Pas op, erg gevaarlijk!</item>
+    </string-array>
+
+    <array name="criminalImage">
+        <item>@drawable/badguy</item>
+        <item>@drawable/badguy</item>
+        <item>@drawable/badguy</item>
+        <item>@drawable/badguy</item>
+    </array>
+</resources>
